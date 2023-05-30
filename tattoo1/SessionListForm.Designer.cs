@@ -57,20 +57,23 @@
             // button3
             // 
             button3.Anchor = AnchorStyles.None;
+            button3.BackColor = Color.SlateBlue;
             button3.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
             button3.ImeMode = ImeMode.NoControl;
             button3.Location = new Point(645, 12);
             button3.Name = "button3";
             button3.Size = new Size(143, 48);
             button3.TabIndex = 10;
             button3.Text = "Назад";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // SessionListForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LavenderBlush;
             ClientSize = new Size(800, 450);
             Controls.Add(button3);
             Controls.Add(label1);

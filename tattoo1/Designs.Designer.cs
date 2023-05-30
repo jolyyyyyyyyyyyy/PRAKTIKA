@@ -81,8 +81,9 @@
             // button1
             // 
             resources.ApplyResources(button1, "button1");
+            button1.BackColor = Color.FromArgb(255, 192, 192);
             button1.Name = "button1";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // pictureBox1
@@ -94,28 +95,33 @@
             // button2
             // 
             resources.ApplyResources(button2, "button2");
+            button2.BackColor = Color.SlateBlue;
+            button2.ForeColor = Color.White;
             button2.Name = "button2";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
             resources.ApplyResources(button3, "button3");
+            button3.BackColor = Color.FromArgb(192, 192, 255);
             button3.Name = "button3";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button4
             // 
             resources.ApplyResources(button4, "button4");
+            button4.BackColor = Color.FromArgb(192, 192, 255);
             button4.Name = "button4";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // Designs
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LavenderBlush;
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);

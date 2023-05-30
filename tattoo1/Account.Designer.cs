@@ -175,8 +175,9 @@
             // button4
             // 
             button4.Anchor = AnchorStyles.None;
-            button4.BackColor = Color.FromArgb(255, 192, 255);
+            button4.BackColor = Color.SlateBlue;
             button4.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.White;
             button4.Location = new Point(662, 12);
             button4.Name = "button4";
             button4.Size = new Size(126, 51);
@@ -189,6 +190,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LavenderBlush;
             ClientSize = new Size(800, 450);
             Controls.Add(button4);
             Controls.Add(textBox5);
@@ -203,6 +205,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            ForeColor = Color.Black;
             Name = "Account";
             Text = "Account";
             WindowState = FormWindowState.Maximized;

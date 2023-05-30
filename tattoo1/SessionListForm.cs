@@ -24,7 +24,7 @@ namespace tattoo1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Main main = new Main();
+            Sessions main = new Sessions();
             main.Show();
             this.Hide();
         }

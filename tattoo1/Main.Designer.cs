@@ -53,37 +53,43 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
+            button1.BackColor = Color.FromArgb(192, 192, 255);
             button1.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = Color.Black;
             button1.Location = new Point(77, 115);
             button1.Name = "button1";
             button1.Size = new Size(135, 61);
             button1.TabIndex = 1;
             button1.Text = "Клиенты";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.Anchor = AnchorStyles.None;
+            button2.BackColor = Color.FromArgb(192, 192, 255);
             button2.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.ForeColor = Color.Black;
             button2.Location = new Point(77, 193);
             button2.Name = "button2";
             button2.Size = new Size(135, 61);
             button2.TabIndex = 2;
             button2.Text = "Сеансы";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
             button3.Anchor = AnchorStyles.None;
+            button3.BackColor = Color.FromArgb(192, 192, 255);
             button3.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = Color.Black;
             button3.Location = new Point(77, 273);
             button3.Name = "button3";
             button3.Size = new Size(135, 61);
             button3.TabIndex = 3;
             button3.Text = "Дизайны";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // pictureBox1
@@ -114,19 +120,22 @@
             // button4
             // 
             button4.Anchor = AnchorStyles.None;
+            button4.BackColor = Color.SlateBlue;
             button4.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.White;
             button4.Location = new Point(662, 12);
             button4.Name = "button4";
             button4.Size = new Size(126, 51);
             button4.TabIndex = 6;
             button4.Text = "Выход";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LavenderBlush;
             ClientSize = new Size(800, 450);
             Controls.Add(button4);
             Controls.Add(label2);

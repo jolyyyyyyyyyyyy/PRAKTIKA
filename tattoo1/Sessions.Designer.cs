@@ -87,13 +87,14 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
+            button1.BackColor = Color.FromArgb(192, 192, 255);
             button1.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(324, 267);
             button1.Name = "button1";
             button1.Size = new Size(169, 62);
             button1.TabIndex = 4;
             button1.Text = "Добавить";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // textBox1
@@ -107,26 +108,29 @@
             // button2
             // 
             button2.Anchor = AnchorStyles.None;
+            button2.BackColor = Color.FromArgb(192, 192, 255);
             button2.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Location = new Point(585, 148);
             button2.Name = "button2";
             button2.Size = new Size(190, 66);
             button2.TabIndex = 8;
             button2.Text = "Показать сеанс";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
             button3.Anchor = AnchorStyles.None;
+            button3.BackColor = Color.SlateBlue;
             button3.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
             button3.ImeMode = ImeMode.NoControl;
             button3.Location = new Point(645, 18);
             button3.Name = "button3";
             button3.Size = new Size(143, 48);
             button3.TabIndex = 9;
             button3.Text = "Назад";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // maskedTextBox1
@@ -154,6 +158,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LavenderBlush;
             ClientSize = new Size(800, 450);
             Controls.Add(comboBox1);
             Controls.Add(maskedTextBox1);

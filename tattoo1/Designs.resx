@@ -397,10 +397,10 @@
     <value>Segoe UI Light, 12pt</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>560, 327</value>
+    <value>547, 327</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 66</value>
+    <value>209, 66</value>
   </data>
   <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>

@@ -41,6 +41,7 @@
             pictureBox4 = new PictureBox();
             label5 = new Label();
             panel1 = new Panel();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -172,11 +173,28 @@
             panel1.Size = new Size(824, 299);
             panel1.TabIndex = 9;
             // 
+            // button3
+            // 
+            button3.Anchor = AnchorStyles.None;
+            button3.BackColor = Color.SlateBlue;
+            button3.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
+            button3.ImeMode = ImeMode.NoControl;
+            button3.Location = new Point(702, 12);
+            button3.Name = "button3";
+            button3.Size = new Size(143, 48);
+            button3.TabIndex = 11;
+            button3.Text = "Назад";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // DesignsListForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LavenderBlush;
             ClientSize = new Size(857, 450);
+            Controls.Add(button3);
             Controls.Add(panel1);
             Controls.Add(label1);
             Name = "DesignsListForm";
@@ -205,5 +223,6 @@
         private PictureBox pictureBox4;
         private Label label5;
         private Panel panel1;
+        private Button button3;
     }
 }

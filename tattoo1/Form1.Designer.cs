@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
             label2 = new Label();
             label1 = new Label();
@@ -37,26 +38,28 @@
             pictureBox2 = new PictureBox();
             checkBox1 = new CheckBox();
             vhod = new Button();
+            pictureBox3 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top;
-            panel1.BackColor = Color.FromArgb(255, 192, 255);
+            panel1.BackColor = Color.FromArgb(192, 192, 255);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
             panel1.Location = new Point(1, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(798, 128);
+            panel1.Size = new Size(798, 138);
             panel1.TabIndex = 0;
             // 
             // label2
             // 
             label2.Font = new Font("Segoe UI Light", 30F, FontStyle.Italic, GraphicsUnit.Point);
-            label2.ForeColor = Color.Purple;
+            label2.ForeColor = Color.Navy;
             label2.Location = new Point(272, 37);
             label2.Name = "label2";
             label2.Size = new Size(299, 72);
@@ -131,8 +134,9 @@
             // vhod
             // 
             vhod.Anchor = AnchorStyles.None;
-            vhod.BackColor = Color.FromArgb(255, 192, 192);
+            vhod.BackColor = Color.SlateBlue;
             vhod.Font = new Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            vhod.ForeColor = Color.White;
             vhod.Location = new Point(408, 326);
             vhod.Name = "vhod";
             vhod.Size = new Size(140, 61);
@@ -141,11 +145,24 @@
             vhod.UseVisualStyleBackColor = false;
             vhod.Click += vhod_Click;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Anchor = AnchorStyles.None;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(554, 145);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(196, 195);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 7;
+            pictureBox3.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LavenderBlush;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox3);
             Controls.Add(vhod);
             Controls.Add(checkBox1);
             Controls.Add(pictureBox2);
@@ -160,6 +177,7 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -175,5 +193,6 @@
         private PictureBox pictureBox2;
         private CheckBox checkBox1;
         private Button vhod;
+        private PictureBox pictureBox3;
     }
 }

@@ -81,6 +81,7 @@
             Name = "CustomersListForm";
             Text = "CustomersListForm";
             WindowState = FormWindowState.Maximized;
+            Load += CustomersListForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

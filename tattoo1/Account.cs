@@ -28,5 +28,10 @@ namespace tattoo1
         {
 
         }
+
+        private void Account_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

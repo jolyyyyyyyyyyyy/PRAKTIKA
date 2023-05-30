@@ -23,5 +23,10 @@ namespace tattoo1
             main.Show();
             this.Hide();
         }
+
+        private void DesignsListForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

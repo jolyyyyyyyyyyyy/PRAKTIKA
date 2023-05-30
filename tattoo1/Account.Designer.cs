@@ -209,6 +209,7 @@
             Name = "Account";
             Text = "Account";
             WindowState = FormWindowState.Maximized;
+            Load += Account_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

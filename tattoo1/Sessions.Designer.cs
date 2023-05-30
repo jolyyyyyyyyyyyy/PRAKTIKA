@@ -173,6 +173,7 @@
             Name = "Sessions";
             Text = "Sessions";
             WindowState = FormWindowState.Maximized;
+            Load += Sessions_Load;
             ResumeLayout(false);
             PerformLayout();
         }

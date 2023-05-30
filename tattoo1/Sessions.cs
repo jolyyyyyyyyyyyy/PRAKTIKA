@@ -56,5 +56,10 @@ namespace tattoo1
         {
 
         }
+
+        private void Sessions_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

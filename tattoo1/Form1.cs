@@ -50,5 +50,10 @@ namespace tattoo1
         {
             textBox2.UseSystemPasswordChar = true;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

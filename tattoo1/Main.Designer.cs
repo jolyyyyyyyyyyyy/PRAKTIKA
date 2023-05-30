@@ -147,6 +147,7 @@
             Name = "Main";
             Text = "Main";
             WindowState = FormWindowState.Maximized;
+            Load += Main_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

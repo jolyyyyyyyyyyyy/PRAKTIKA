@@ -81,6 +81,7 @@
             Name = "SessionListForm";
             Text = "SessionListForm";
             WindowState = FormWindowState.Maximized;
+            Load += SessionListForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
